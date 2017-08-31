@@ -1,0 +1,23 @@
+define(['vue','vuex'],function(Vue,Vuex){
+     Vue.use(Vuex);
+     return new Vuex.Store({
+        state:{
+            informationData:{
+                name:"",
+                sex:"",
+                type:"",
+                idCard:"",
+                address:""
+            }
+          },
+          mutations:{
+              getInformationData(state){
+                  console.info(state.informationData.name);
+                  console.info(state.informationData.sex);
+                  console.info(state.informationData.type);
+                  console.info(state.informationData.idCard);
+                  console.info(state.informationData.address);
+              }
+          }
+      })
+})

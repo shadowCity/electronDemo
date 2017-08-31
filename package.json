@@ -1,0 +1,15 @@
+{
+  "name": "your-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "productName": "Edemo",
+	"scripts": {
+	  "pack": "electron-builder --dir",
+	  "dist": "electron-builder"
+	},
+  "build":{
+  },
+  "description":"null",
+  "author":"litianye",
+  "dependencies":{}
+}

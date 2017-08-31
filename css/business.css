@@ -1,0 +1,140 @@
+
+/*html,body{
+    margin:0;
+    padding:0;
+    border: 0;
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#814A87),  to(#CC6EA4));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width:100%;
+}*/
+.clean{
+    clear:both;
+}
+/*.leftfonts{
+    float:left;
+    margin-top:70px;
+    margin-left:10%;
+}
+.backIcon{
+    float: right;
+    margin-top:70px;
+    margin-right:10%;
+    color: #FF636B;
+    font-size: 50px;
+}*/
+/*.left-arrow{
+	display:block;
+	width:60px;
+	height:60px;
+	border-radius:50%;
+	background:#EC5158;
+	text-align:center;
+	cursor:pointer;
+}*/
+/*.left-arrow:before{
+	display:inline-block;
+	content:"";
+	width:18px;
+	height:18px;
+	border:3px solid white;
+	border-right:0;
+	border-bottom:0;
+	transform:rotate(-45deg);
+	position:relative;
+	left:3px;
+	top:-6px;
+}*/
+ /*.leftfonts>p:first-child {
+    font-size: 42px;
+    color:#fff;
+    font-family: 微软雅黑;
+    letter-spacing: 2px;
+     font-weight: bold;
+}
+.leftfonts>p:last-child {
+    font-size: 25px;
+    color:#fff;
+    letter-spacing:1px;
+    font-weight: bold;
+}
+
+.procedure{
+    margin-left: 12%;
+}
+.procedure button{
+     border-radius:25px;
+}
+.line{
+    width:55px;
+    height: 1px;
+    background: #fff;
+}
+.pesu-content:before {
+    color: white;
+    content: url(.././picture/whiteLine.png);
+}
+button{
+    width:107px;
+    height:41px;
+    background:#F5F7F8;
+    border-radius:25px;
+    border: 2px solid #8F6D82;
+}
+.radiu {
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background:#96B63E;
+    border-radius:10px;
+}
+
+.number{
+    display:block;
+    margin:auto;
+}
+.number:before{
+    padding:2px 5px;
+    background:green;
+    border-radius:50%;
+    content:"1";
+    display:inline-block;
+    left:0;
+    top:0;
+}
+.swipdiv{
+    width:50%;
+    float:left;
+    transform:translateY(20px);
+}
+#highchart{
+    width: 50%;
+    float:left;
+    margin-top: 15px;
+}
+.swiper-container{
+	cursor:-webkit-grab;
+}
+.swiper-container-business {
+        width: 500px;
+        height: 300px;
+        margin-top: 20px;
+}*/
+/*#swipcontainerbottom{
+    margin-left:30px;
+    width: 360px;
+    height: 260px;*/
+    /*transform:translate(0,2rem);*/
+/*}*/
+/*#swipcontainerbottom .swiper-slide{
+	border-radius:1rem;
+	overflow:hidden;
+	background-size:cover;
+	background-position:center;
+}
+.greenbg{
+	color:#2ebf2e;
+}*/
+
+  

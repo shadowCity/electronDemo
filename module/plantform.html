@@ -1,0 +1,307 @@
+		<!--page2-->
+		<div class="page" id="businessSelection">
+			<div class="businessSelection-top">
+				<div class="title">
+					上下滑动进行交易选择
+					<br>
+					<span style="font-size:1.3rem;">Slide up and down to trade options </span>
+				</div>
+				<div class="buttonWrap">
+					<a class="pageBtn" @click="returnhome" >返回</a>
+				</div>
+			</div>
+			<div class="businessSelection-bottom">
+				<div class="wrap_border_left">
+					<div class="swiper-container swiper-container-v">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide swiper-v-wrapper">
+								<div class="swiper-container swiper-container-h">
+									<div class="tempt"></div>
+									<div class="tempt"></div>
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div class="swip-wrap-body hidden" id="CXKSQ" @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/KJYMXCX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													储蓄卡申请<br> Savings card 
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="swip-wrap-body hidden" @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/YECX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													修改密码<br> Modify password
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="swip-wrap-body hidden" @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/YECX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													其他业务<br> Modify password
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--<div class="swiper-button-next hidden"></div>
+									<div class="swiper-button-prev hidden"></div>-->
+								</div>
+								<!--swiper-container-->
+							</div>
+							<!--swiper-slide-->
+							<div class="swiper-slide swiper-v-wrapper">
+								<div class="swiper-container swiper-container-h">
+									<div class="tempt"></div>
+									<div class="tempt"></div>
+									<div class="tempt"></div>
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div class="swip-wrap-body hidden" @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/KJYMXCX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													卡交易明细查询<br> Card transaction 
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="swip-wrap-body hidden" @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/KJYMXCX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													外汇交易明细查询<br> Card transaction 
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="swip-wrap-body hidden" @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/KJYMXCX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													理财明细查询<br> Card transaction 
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="swip-wrap-body hidden" @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/KJYMXCX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													卡交易明细查询<br> Card transaction 
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="swip-wrap-body hidden" @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/YECX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													余额查询<br> Balance inquiry
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="swip-wrap-body hidden" @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/ZZHYECX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													子账户余额查询<br> Sub account balance 
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--<div class="swiper-button-next hidden"></div>
+									<div class="swiper-button-prev hidden"></div>-->
+								</div>
+								<!--swiper-container-->
+							</div>
+							<!--swiper-slide-->
+							<div class="swiper-slide swiper-v-wrapper init">
+								<div class="swiper-container swiper-container-h">
+									<div class="tempt hidden"></div>
+									<div class="tempt hidden"></div>
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div class="swip-wrap-body " @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/YECX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													跨行转账<br> Cross bank transfer
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="swip-wrap-body " @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/ZZHYECX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													行内转账<br> Inline transfer
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--<div class="swiper-button-next hidden"></div>
+									<div class="swiper-button-prev hidden"></div>-->
+								</div>
+								<!--swiper-container-->
+							</div>
+							<!--swiper-slide-->
+							<div class="swiper-slide swiper-v-wrapper">
+								<div class="swiper-container swiper-container-h">
+									<div class="tempt"></div>
+									<div class="tempt"></div>
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div class="swip-wrap-body hidden" @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/ZZHYECX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													账号签约<br> Account signing
+												</div>
+											</div>
+										</div>
+
+										<div class="swiper-slide">
+											<div class="swip-wrap-body hidden" @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/YECX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													银行卡签约<br> Bank card signing
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--<div class="swiper-button-next hidden"></div>
+									<div class="swiper-button-prev hidden"></div>-->
+								</div>
+								<!--swiper-container-->
+							</div>
+							<!--swiper-slide-->
+							<div class="swiper-slide swiper-v-wrapper">
+								<div class="swiper-container swiper-container-h">
+									<div class="tempt"></div>
+									<div class="tempt"></div>
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div class="swip-wrap-body hidden" @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/YECX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													现金转账<br> Cash transfer
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="swip-wrap-body hidden" @click="goToChild('applyCard')">
+												<div class="swip-wrap-header">
+													<img src="./resource/img/ZZHYECX.png">
+												</div>
+												<div class="swip-wrap-footer">
+													现金存取<br> Cash access
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--<div class="swiper-button-next hidden"></div>
+									<div class="swiper-button-prev hidden"></div>-->
+								</div><!--swiper-container-->
+							</div><!--swiper-slide-->
+						</div><!--swiper-wrapper-->
+					</div><!--swiper-container-v-->
+				</div>
+				<!--wrap_border_left-->
+				<div class="line-v"></div>
+				<div class="wrap_border_right" style="overflow:hidden">
+					<!-- Swiper -->
+					<div class="swiper-container" id="swipcontainerbottom">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="son_title">
+									常用业务<br> Common business
+								</div>
+								<!-- <div class="son_content hidden">
+									可以进行储蓄卡申请，密码修改等业务操作<br> 单个交易时长为6分钟
+								</div> -->
+							</div>
+							<div class="swiper-slide">
+								<div class="son_title">
+									查询业务<br> Query the business
+								</div>
+								<!-- <div class="son_content hidden">
+									可以进行查询余额，卡交易明细查询，子账户余额查询等相关业务<br> 单个操作时长约为5分钟
+								</div> -->
+							</div>
+							<div class="swiper-slide">
+								<div class="son_title">
+									转账业务<br> Money transfer business
+								</div>
+								<!-- <div class="son_content">
+									可以进行行内转账，跨行转账等相关业务<br> 单个交易时长约为5分钟
+								</div> -->
+							</div>
+							<div class="swiper-slide">
+								<div class="son_title">
+									签约管理<br> Contract management
+								</div>
+								<!-- <div class="son_content hidden">
+									可以进行签署业务约定,购买相应理财产品<br> 单个交易时长为5分钟
+								</div> -->
+							</div>
+							<div class="swiper-slide">
+								<div class="son_title">
+									现金业务<br> Cash business
+								</div>
+								<!-- <div class="son_content hidden">
+									可以进行现金兑换现金，或购买相应的贵金属产品<br> 单个交易时长5分钟
+								</div> -->
+							</div>
+						</div>
+					</div>
+					<!--<div class="swiper-button-next "></div>
+						<div class="swiper-button-prev "></div>-->
+				</div>
+			</div>
+			<!--businessSelection-bottom-->
+			<div class="banner-center">
+				<!--<div style="float:left;margin-top:2.7rem;">
+					<img class="leftIcon" src="../picture/left.png">
+				</div>
+				<div style="float:right;margin-right:50%;margin-top:2.7rem;">
+					<img class="rightIcon" src="../picture/right.png">
+				</div>-->
+			</div>
+			<!--右侧swiper上移下移按钮-->
+			<div class="right_top">
+				<img src="./resource/img/left.png">
+			</div>
+			<div class="right_down">
+				<img src="./resource/img/right.png">
+			</div>
+			<!--左侧左右移动的按钮-->
+			<div class="leftbtn">
+				<!--<img src="../picture/left.png">-->
+				<span class="fa fa-chevron-left  fa-2x" ></span>
+			</div>
+			<div class="rightbtn" >
+				<!--<img src="../picture/right.png">-->
+				<span class="fa fa-chevron-right  fa-2x"></span>
+			</div>
+		</div>

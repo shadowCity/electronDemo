@@ -1,0 +1,169 @@
+	<div class="main-mask">
+		<!--page1-->
+		<div class="page current" id="home">
+			<div class="home-top">
+				<div class="left-section">
+					<div>
+						<img src="./resource/img/system-logo.png">
+					</div>
+				</div>
+			</div>
+			<div class="home-bottom">
+				<div class="left-section title">
+					<div>
+						<div>
+							综合自助系统
+						</div>
+						<div>
+							INTEGRATED
+							<br> SELF-SERVICE
+							<br> SYSTEM
+						</div>
+						<!--<a class="redBtn" id="startBusiness">开始办理</a>-->
+					</div>
+				</div>
+				<div class="right-section">
+					<div class="home-banner">
+						<div class="home-block home_banner_one" @click="link('plantForm',$event)">
+							个人业务<br>
+							<div class="line"></div>
+							<span class="pesu-content"></span>
+							<div class="ps-content">
+								Personal<br> business
+								<br>
+							</div>
+							<img src="./resource/img/pencil.png" style="float:right">
+						</div>
+						<div class="overlay lay_1"></div>
+						<div class="home-block-bottom card_1">
+							<div class="contentsize">
+								<div class="chinSize">储蓄卡申请</div>
+								 Debit card<br> application
+							</div>
+						</div>
+						<div class="home-block-bottom card_2">
+							<div class="contentsize">
+								<div class="chinSize">转账业务</div>
+								 Money transfor
+							</div>
+						</div>
+						<div class="clean"></div>
+						<div class="reflection ref_1"></div>
+						<div class="reflection ref_2"></div>
+					</div>
+					<div class="home-banner">
+						<div class="home-block home_banner_two" @click="link('plantForm',$event)">
+							理财产品<br>
+							<div class="line"></div>
+							<span class="pesu-content"></span>
+							<div class="ps-content">
+								Product<br> purchase
+								<br>
+							</div>
+							<img style="float:right" src="./resource/img/financial.png">
+						</div>
+
+						<div class="overlay lay_2"></div>
+						<div class="home-block-bottom card_3">
+							<div class="contentsize">
+								<div class="chinSize">理财认购</div>
+								 Financial
+								<br> subscribe
+							</div>
+						</div>
+						<div class="home-block-bottom card_4">
+							<div class="contentsize">
+								<div class="chinSize">理财签约</div>
+								Financial
+								<br> contract
+							</div>
+						</div>
+						<div class="clean"></div>
+						<div class="reflection ref_3"></div>
+						<div class="reflection ref_4"></div>
+					</div>
+				</div>
+			</div>
+			<div id="container" style="min-width:400px;height:400px"></div>
+		</div>
+
+		<!--page 4-->
+		<div class="page" id="businessProcess">
+			<!--<div class="OutCardpng">
+				<div class="circular">
+					<div class="circular_in"></div>
+					<img src="../picture/DuiHao.png" class="SuccessPng hidden">
+				</div>
+				<div class="rotefont">
+					<i class="fa fa-circle-o-notch fa-spin fa-fw"></i>
+				</div>
+			</div>
+			<div class="Pagefont">
+				<div class="pageWait">
+					<h1>正在出卡，请稍候</h1>
+					<p>Is the card,please later</p>
+				</div>
+				<div class="pageSuccess hidden">
+					<h1>Success !</h1>
+				</div>
+			</div>-->
+			<div class="OutCardpng">
+				<div class="circular">
+					<div class="circular_in"><img src="./resource/img/DuiHao.png" class="SuccessPng hidden"></div>
+					
+				</div>
+				<div class="rotefont">
+					<i class="fa fa-circle-o-notch fa-spin fa-fw"></i>
+				</div>
+				<div class="Pagefont">
+					<div class="pageWait">
+						<h1>正在出卡，请稍候</h1>
+						<p>Is the card,please later</p>
+					</div>
+					<div class="pageSuccess hidden">
+						<h1>Success !</h1>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="back-modal hidden">
+			<div class="modal-wrap">
+				<div class="swiper-container-contractView">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="./resource/img/contractView.bmp" alt=""></div>
+						<div class="swiper-slide"><img src="./resource/img/contractView.bmp" alt=""></div>
+						<div class="swiper-slide"><img src="./resource/img/contractView.bmp" alt=""></div>
+						<div class="swiper-slide"><img src="./resource/img/contractView.bmp" alt=""></div>
+						<div class="swiper-slide"><img src="./resource/img/contractView.bmp" alt=""></div>
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button swiper-button-prev"></div>
+					<div class="swiper-button swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="fingerprint-sign-modal hidden">
+			<div class="modal-wrap">
+				<div class="hcontant">
+					<h2>保持您的手指,</h2>
+					<h2>马上完成!</h2>
+				</div>
+				<div class="white-panel">
+					<div class="sign-title">
+						<p>您还没有识别指纹,</p>
+						<p>来识别吧!</p>
+						<a class="pageBtn fingerprint-signBtn">好</a>
+					</div>
+				</div>
+				<div class="fingerprint-viewer"><img src="./resource/img/fingerprinviewer.png" alt=""></div>
+				<div class="fingerprint-viewer mask hidden">
+					<span class="fa-stack"><i class="fa fa-check" aria-hidden="true"></i></span>
+				</div>
+			</div>
+		</div>
+<!-- <input type="text" id="txt_Search" v-on:focus='test' v-on:blur='blur'>
+<div id="softkey"></div> -->
+	</div>
