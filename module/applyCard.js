@@ -6,7 +6,7 @@ define(['components/info','jquery'],function(info,$){
 		name:"applyCard",
 		template: '<div class="main-mask"><div class="page applyCard-wrap">'
             +'<div class="applyCard-header clearfix">'
-                +'<div class="header-left-section"><img src="./resource/img/system-logo.png" alt="" class="system-logo"></div>'
+                // +'<div class="header-left-section"><img src="./resource/img/system-logo.png" alt="" class="system-logo"></div>'
                 +'<div class="header-right-section"><a class="pageBtn backBtn">返回</a></div>'
             +'</div>'
             +'<div class="applyCard-container clearfix">'
